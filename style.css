@@ -51,3 +51,13 @@ body {
     max-height: 55vh;
   }
 }
+
+.results {
+  display: block;
+  background: grey;
+  max-width: 60vw;
+  min-height: 10vw;
+  width: 43vw;
+  margin: 0 auto;
+}
+
