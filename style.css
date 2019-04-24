@@ -1,16 +1,16 @@
 body {
-  background: #1e2440;
+  /* background: #1e2440; */
   color: #f2efe2;
   font-size: 16px;
-  font-family: 'Kaushan Script', cursive;
-  font-family: 'Shadows Into Light', cursive;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  color: black;
 }
 .container {
   position: relative;
   border: 1px solid #f2efe2;
-  width: 40vw;
+  /* width: 40vw; */
   overflow: auto;
-  max-width: 60vw;
+  /* max-width: 60vw; */
   margin: 0 auto;
   border-radius: 0.1rem;
   background: #f2efe2;
@@ -54,10 +54,21 @@ body {
 
 .results {
   display: block;
-  background: grey;
-  max-width: 60vw;
+  /* background: grey; */
+  /* max-width: 60vw; */
   min-height: 10vw;
-  width: 43vw;
+  /* width: 43vw; */
   margin: 0 auto;
 }
 
+.result-image {
+  max-height: 25vh;
+}
+
+.wrapper {
+  display: inline-block;
+  width: 30%;
+  text-align: center;
+  border: 1px solid beige;
+  margin: 10px;
+}
